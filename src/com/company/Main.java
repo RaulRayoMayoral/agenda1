@@ -10,7 +10,7 @@ public class Main {
 
        Pantallamenu pantallamenu = new Pantallamenu();
 
-       pantallamenu.mostrar();
+       while(pantallamenu.mostrar()) {}
 
 
 
