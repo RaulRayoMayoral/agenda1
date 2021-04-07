@@ -5,15 +5,16 @@ public class Eliminar {
         Titulo titulo = new Titulo();
 
         System.out.println("Eliminar contactos");
-        System.out.println("¿A quien quieres eliminar?");
+        System.out.println("Dime el primer apellido de la persona por favor");
         String contacto =  Main.scanner.nextLine();
 
         for (Comtacto comtacto : Main.guardarcontactos.comtactos) {
             if (contacto.equals(comtacto.apellido)){
-                comtacto.nombre=null;
-                comtacto.apellido= null;
-                comtacto.segapellido= null;
-                comtacto.edad= null;
+                comtacto.nombre=" ";
+                comtacto.apellido= " ";
+                comtacto.segapellido= " ";
+                comtacto.edad= " ";
+                comtacto.ciudad= " ";
             Mensaje mensaje = new Mensaje();
             mensaje.mostra("Contacto eliminado correctamente");
             }

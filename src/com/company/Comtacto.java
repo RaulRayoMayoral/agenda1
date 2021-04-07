@@ -5,4 +5,5 @@ public class Comtacto {
     String apellido;
     String segapellido;
     String edad;
+    String ciudad;
 }

@@ -12,6 +12,7 @@ void mostrar(){
     comtacto.apellido = campoDeTexto.pedir("Apellido de la persona");
     comtacto.segapellido = campoDeTexto.pedir("Segundo apellido de la persona");
     comtacto.edad = campoDeTexto.pedir("Dime la edad de la persona");
+    comtacto.ciudad = campoDeTexto.pedir("¿Donde vives?");
     Main.guardarcontactos.comtactos.add(comtacto);
     Mensaje mensaje = new Mensaje();
     mensaje.mostra("Contacto creado correctamente");

@@ -10,6 +10,7 @@ public class Contactos {
             System.out.println("Apellido:"+" "+comtacto.apellido);
             System.out.println("Segundo apellido:"+" "+comtacto.segapellido);
             System.out.println("Edad:"+" "+ comtacto.edad);
+            System.out.println("Ciudad:"+" "+comtacto.ciudad);
             System.out.println("-------------------------");
         }
     }
