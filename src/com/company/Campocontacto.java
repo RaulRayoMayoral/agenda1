@@ -17,8 +17,8 @@ public class Campocontacto {
                 if(!texto.isEmpty()){
                     return texto;
                 } else {
-                    mensaje mensaje =new mensaje();
-                    mensaje.mostrarError("Introduzca el nombre");
+                    Mensaje mensaje =new Mensaje();
+                    mensaje.mostra("Introduzca el nombre");
                 }
 
             }

@@ -1,7 +1,7 @@
 package com.company;
 
-public class mensaje {
-    void mostrarError(String texto){
+public class Mensaje {
+    void mostra(String texto){
         System.out.println(texto );
 
     }

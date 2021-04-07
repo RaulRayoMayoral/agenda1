@@ -1,6 +1,6 @@
 package com.company;
 
-public class comtacto {
+public class Comtacto {
     String nombre;
     String apellido;
     String segapellido;

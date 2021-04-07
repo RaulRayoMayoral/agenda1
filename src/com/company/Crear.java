@@ -1,11 +1,11 @@
 package com.company;
 
 public class Crear {
-void mostrar(String nota){
+void mostrar(){
     Titulo titulo = new Titulo();
     titulo.mostrar("Crear contacto");
 
-    comtacto comtacto = new comtacto();
+    Comtacto comtacto = new Comtacto();
     Campocontacto campoDeTexto = new Campocontacto();
 
     comtacto.nombre = campoDeTexto.pedir("Nombre de la persona", true);
@@ -13,6 +13,9 @@ void mostrar(String nota){
     comtacto.segapellido = campoDeTexto.pedir("Segundo apellido de la persona");
     comtacto.edad = campoDeTexto.pedir("Dime la edad de la persona");
     Main.guardarcontactos.comtactos.add(comtacto);
+    Mensaje mensaje = new Mensaje();
+    mensaje.mostra("Contacto creado correctamente");
+
 
     }
 }
