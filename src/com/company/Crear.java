@@ -10,7 +10,8 @@ void mostrar(String nota){
 
     comtacto.nombre = campoDeTexto.pedir("Nombre de la persona", true);
     comtacto.apellido = campoDeTexto.pedir("Apellido de la persona");
-
+    comtacto.segapellido = campoDeTexto.pedir("Segundo apellido de la persona");
+    comtacto.edad = campoDeTexto.pedir("Dime la edad de la persona");
     Main.guardarcontactos.comtactos.add(comtacto);
 
     }

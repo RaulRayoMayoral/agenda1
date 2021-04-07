@@ -7,7 +7,9 @@ public class Contactos {
         for (comtacto comtacto : Main.guardarcontactos.comtactos ) {
             System.out.println("Nombre:"+" "+comtacto.nombre);
             System.out.println("Apellido:"+" "+comtacto.apellido);
-
+            System.out.println("Segundo apellido:"+" "+comtacto.segapellido);
+            System.out.println("Edad:"+" "+ comtacto.edad);
+            System.out.println("-------------------------");
         }
     }
 }
