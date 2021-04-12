@@ -15,8 +15,11 @@ public class Eliminar {
                 comtacto.segapellido= " ";
                 comtacto.edad= " ";
                 comtacto.ciudad= " ";
-            Mensaje mensaje = new Mensaje();
-            mensaje.mostra("Contacto eliminado correctamente");
+                Mensaje mensaje = new Mensaje();
+                mensaje.mostra("Contacto eliminado correctamente");
+            }else if (!contacto.equals(comtacto.apellido)){
+                Mensaje mensaje = new Mensaje();
+                mensaje.mostra("No se ha encontrado el contacto");
             }
         }
     }
